@@ -17,7 +17,7 @@ def product(numbers):
 class ProductTests(unittest.TestCase):
 
     def test_product(self):
-        self.assertEqual(     0, product([]))
+        self.assertEqual(     1, product([]))
         self.assertEqual(     0, product([0]))
         self.assertEqual(     1, product([1]))
         self.assertEqual(     5, product([5, 1]))
