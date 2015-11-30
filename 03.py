@@ -23,6 +23,7 @@ class RotationTests(unittest.TestCase):
         self.assertTrue(is_rotation("abcdefg", "cdefgab"))
         self.assertTrue(is_rotation("ABCdefg", "CdefgAB"))
         self.assertTrue(is_rotation("A", "A"))
+        self.assertTrue(is_rotation("abcdea","bcdeaa"))
         self.assertTrue(is_rotation("", "")) # Because reasons (see *).
         self.assertFalse(is_rotation("","A"))
         self.assertFalse(is_rotation("A","AAA"))
