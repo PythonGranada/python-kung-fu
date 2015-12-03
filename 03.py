@@ -13,7 +13,7 @@ and find() """
 import unittest
 
 def is_rotation(word, another):
-    return pass # place magic here
+    pass # place magic here
 
 
 class RotationTests(unittest.TestCase):
